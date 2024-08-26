@@ -1,0 +1,7 @@
+numero=int(input('Primeiro número: '))
+numero2=int(input('Segundo número: '))
+if(numero > numero2):
+    maior = numero
+else:
+    maior = numero2
+print(f'O maior número é: {maior}')
